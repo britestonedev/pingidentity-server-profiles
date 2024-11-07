@@ -5,7 +5,7 @@ objectClass: uidObject
 sn: Brooke
 cn: Raeann Brooke
 uid: user.0
-userPassword: 2FederateM0re
+userPassword: testpassword
 
 dn: uid=user.1,ou=people,${USER_BASE_DN}
 objectClass: top
@@ -14,7 +14,7 @@ objectClass: uidObject
 sn: Seawell
 cn: Esko Seawell
 uid: user.1
-userPassword: 2FederateM0re
+userPassword: testpassword
 
 dn: uid=user.2,ou=people,${USER_BASE_DN}
 objectClass: top
@@ -23,7 +23,7 @@ objectClass: uidObject
 sn: Tancordo
 cn: Sidonia Tancordo
 uid: user.2
-userPassword: 2FederateM0re
+userPassword: testpassword
 
 dn: uid=user.3,ou=people,${USER_BASE_DN}
 objectClass: top
@@ -32,7 +32,7 @@ objectClass: uidObject
 sn: Knio
 cn: Pierre-Marc Knio
 uid: user.3
-userPassword: 2FederateM0re
+userPassword: testpassword
 
 dn: uid=user.4,ou=people,${USER_BASE_DN}
 objectClass: top
@@ -41,4 +41,4 @@ objectClass: uidObject
 sn: Psutka
 cn: Terza Psutka
 uid: user.4
-userPassword: 2FederateM0re
+userPassword: testpassword

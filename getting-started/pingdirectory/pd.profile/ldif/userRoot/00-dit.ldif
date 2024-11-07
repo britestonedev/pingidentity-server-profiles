@@ -9,3 +9,18 @@ dn: ou=people,${USER_BASE_DN}
 objectClass: top
 objectClass: organizationalUnit
 ou: people
+
+dn: ou=services,${USER_BASE_DN}
+objectClass: top
+objectClass: organizationalUnit
+ou: services
+
+dn: ou=groups,ou=services,${USER_BASE_DN}
+objectClass: top
+objectClass: organizationalUnit
+ou: groups
+
+dn: ou=authenticationsessions,ou=services,${USER_BASE_DN}
+objectClass: top
+objectClass: organizationalUnit
+ou: authenticationsessions
